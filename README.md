@@ -4,21 +4,21 @@ This project demonstrates SQL database design and querying skills through a simu
 
 # 🔹 Database Overview
 
-Database Name: banking
+-**Database Name:** `banking`
 
-Tables:
+-Tables:
 
-branch - Bank branches with city/location constraints
+-`branch` Bank branches with city/location constraints
 
-customer - Customer personal information
+-`customer` Customer personal information
 
-loan - Loans issued by branches
+-`loan`Loans issued by branches
 
-borrower - Relationship between customers and their loans
+-`borrower` Relationship between customers and their loans
 
-account - Bank accounts and balances
+-`account`  Bank accounts and balances
 
-depositor - Relationship between customers and their deposit accounts
+-`depositor` - Relationship between customers and their deposit accounts
 
 All tables include relevant primary keys, foreign keys, check constraints, and ON DELETE/UPDATE CASCADE behaviors.
 
@@ -117,11 +117,7 @@ Query logic for real-world banking scenarios
 
 
 # 📂 Files Included
-
-banking_ddl.sql — Schema and table creation
-
-banking_queries.sql — All queries listed above
-
+Note: The SQL queries are embedded directly in this README file for review and clarity. No separate .sql query file is included.
 README.md — This project documentation
 
 # 👩‍💼 Author
